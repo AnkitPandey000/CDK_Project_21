@@ -12,7 +12,7 @@ class CdkProjectStack(Stack):
         _s3.Bucket(
             self,
             "myBucketId",
-            bucket_name="cdkproject2159563",
+            bucket_name="cdkproject2159562",
             versioned=True,
             encryption=_s3.BucketEncryption.KMS_MANAGED
 
